@@ -22,10 +22,10 @@ export const Header =(props: Props) => {
         </div>
         <div className={s.wrapper}>
             <div className={s.change_theme}>
-             <GlobalSvgSelector id="change-theme" />  
+             <GlobalSvgSelector id="change-theme" />
+             </div>
              <Select options={options} />
          </div>
-        </div>
     </header>
     );
 };
